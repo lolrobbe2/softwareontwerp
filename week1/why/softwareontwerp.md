@@ -4,7 +4,7 @@
 2) developing better/robuster software
 3) better an more efficient software
 
-## requirements (2)
+## **requirements** (2)
 
 ### primary 
 
@@ -26,7 +26,7 @@ What is the end `goal` => create `good` software with `minimum` effort.
 
 `how` do we `reach` the `primary requirements`?
 
-#### Modules
+#### **Modules**
 
 1) separation of concerns
 2) software must be separated in modules
@@ -39,14 +39,14 @@ What is the end `goal` => create `good` software with `minimum` effort.
 > 1) OOP => classes/packages 
 > 2) functional programming => each task has a function
 
-#### Understandable and tested
+#### 1 Understandable and tested
 
 1) understandable => follow the style guide
 2) tested => all parts of the code base need to be tested
    - test `small parts` first, then test `modules`.
    - test `edge cases` to
 
-#### documentation (3)
+#### 2 documentation (3)
 
 1) important for:
     - maintainability
@@ -57,7 +57,7 @@ What is the end `goal` => create `good` software with `minimum` effort.
    1) class docs: function, interdependencies
    2) method docs: what does it do?
 
-#### robustness (3)
+#### 3 robustness (3)
 
 1) `protect` module against `malicious input`
 2) NO hidden dependencies
@@ -66,7 +66,7 @@ What is the end `goal` => create `good` software with `minimum` effort.
     - example: table size
     - example: max records in a DB
 
-#### reusability (3)
+#### 4 reusability (3)
 
 1) ideas => design patterns
 2) code => libraries frameworks
