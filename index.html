@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>software ontwerp</title>
@@ -8,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -24,12 +26,19 @@
         }
       },
       tabs: {
-            persist: true, // default
-            sync: true, // default
-            theme: 'classic', // default
-            tabComments: true, // default
-            tabHeadings: true // default
-        }
+        persist: true, // default
+        sync: true, // default
+        theme: 'classic', // default
+        tabComments: true, // default
+        tabHeadings: true // default
+      },
+      plantuml: {
+        serverPath: 'https://www.plantuml.com/plantuml/svg/',
+        skin: 'classic'
+      },
+      prism: {
+        languages: ['csharp']
+      }
     }
   </script>
   <!-- Docsify v4 -->
@@ -38,5 +47,10 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prism-themes/themes/prism-one-light.min.css">
 </body>
+
 </html>

@@ -2,3 +2,5 @@
   - [**why software design**](/week1/why/softwareontwerp.md)
   - [**What is UML**](/week1/uml/whatUml.md)
   - [**Class Diagrams**](/week1/classdiagrams/classDiagrams.md)
+- **LABS**
+  - [**Lab1**](/labs/lab1/lab1.md) 
