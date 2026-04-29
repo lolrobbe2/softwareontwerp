@@ -3,4 +3,11 @@
   - [**What is UML**](/week1/uml/whatUml.md)
   - [**Class Diagrams**](/week1/classdiagrams/classDiagrams.md)
 - **LABS**
-  - [**Lab1**](/labs/lab1/lab1.md) 
+  - [**Lab1**](/labs/lab1/lab1.md)
+- **Patterns**
+  - [**Strategy**](/patterns/strategy/strategy.md)
+  - [**observer**](/patterns/observer/oberver.md)
+  - [**decorator**](/patterns/decorator/decorator.md)
+  - [**command**](/patterns/command/command.md)
+  - [**adapter**](/patterns/adapter/adapter.md)
+  - [**singleton**](/patterns/singleton/singleton.md)
